@@ -5,10 +5,9 @@
 <h4 align='center'>
 GTFS_PowerTransNet: A Python Function to Generate a Coupled Power and Transportation Network for Planning Purposes
 </h4>
+
 [![UWISE](https://img.shields.io/badge/About-UW/ISE-blue.svg)](https://ise.washington.edu/)
 [![TOMNET](https://img.shields.io/badge/About-TOMNET/UTC-orange)](https://tomnet-utc.engineering.asu.edu/projects/uw-fast-charging/)
-
-
 
 <figure>
 <img src = "images/coupled_overlap.pdf">
