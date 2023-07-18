@@ -65,7 +65,7 @@ WA_candidate_stops_df, WA_shape_routes_df, WA_map_1 = BEB_bus_network(WA_gtfs_fi
 
 <figure>
 <img src = "images/powernode_select.png" width="60%">
-<figcaption align = "center"> 
+<figcaption align = "center"; style="color: grey; font-style: italic;">
 Illustration of node selection rules for constructing the virtual power network.
 </figcaption>
 </figure>
@@ -101,7 +101,7 @@ WA_coupled_map
 
 <figure>
 <img src = "images/WA_map.png">
-<figcaption align = "center"> 
+<figcaption align = "center"; style="color: grey; font-style: italic;">
 Coupled power and transportation network of King County.
 </figcaption>
 </figure>
