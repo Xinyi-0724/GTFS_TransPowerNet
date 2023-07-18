@@ -11,7 +11,7 @@ GTFS_PowerTransNet: A Python Function to Generate a Coupled Power and Transporta
 
 <figure>
 <img src = "images/coupled_overlap.png" width="60%">
-<figcaption align = "center"> 
+<figcaption align = "center" style="color: grey;">
 Functional interconnection of nodes in the coupled power and transportation network.
 </figcaption>
 </figure>
