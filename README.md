@@ -10,7 +10,7 @@ GTFS_PowerTransNet: A Python Function to Generate a Coupled Power and Transporta
 [![TOMNET](https://img.shields.io/badge/About-TOMNET/UTC-orange)](https://tomnet-utc.engineering.asu.edu/projects/uw-fast-charging/)
 
 <figure>
-<img src = "images/coupled_overlap.pdf">
+<img src = "images/coupled_overlap.png">
 <figcaption align = "center"> 
 Functional interconnection of nodes in the coupled power and transportation network.
 </figcaption>
@@ -64,7 +64,7 @@ WA_candidate_stops_df, WA_shape_routes_df, WA_map_1 = BEB_bus_network(WA_gtfs_fi
 >The distance between two adjacent bus stations is usually much shorter than the distance between two power grid nodes in reality. Therefore, we need to further refine the selection of power grid nodes from the transportation nodes. For clustered bus stations, we connect them to a single node in the virtual power network.
 
 <figure>
-<img src = "images/powernode_select.pdf">
+<img src = "images/powernode_select.png">
 <figcaption align = "center"> 
 Illustration of node selection rules for constructing the virtual power network.
 </figcaption>
