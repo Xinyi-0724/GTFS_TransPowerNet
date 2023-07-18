@@ -16,7 +16,7 @@ Functional interconnection of nodes in the coupled power and transportation netw
 </figcaption>
 </figure>
 
-{{< figure src="images/coupled_overlap.png" position="center" title="This is title" >}}
+{{< figure "images/coupled_overlap.png" title="Caption" numbered="true" >}}
 
 
 ## :star: Features
