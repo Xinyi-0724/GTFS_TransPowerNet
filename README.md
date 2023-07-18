@@ -5,9 +5,9 @@
 <h4 align='center'>
 GTFS_PowerTransNet: A Python Function to Generate a Coupled Power and Transportation Network for Planning Purposes
 </h4>
-
 [![UWISE](https://img.shields.io/badge/About-UW/ISE-blue.svg)](https://ise.washington.edu/)
 [![TOMNET](https://img.shields.io/badge/About-TOMNET/UTC-orange)](https://tomnet-utc.engineering.asu.edu/projects/uw-fast-charging/)
+
 
 
 <figure>
@@ -100,7 +100,12 @@ WA_coupled_map
 
 - It will generate the map displayed below:
 
-<iframe src="images/coupled_map_sample_WA.html" width="100%" height="500px"></iframe>
+<figure>
+<img src = "images/WA_map.png">
+<figcaption align = "center"> 
+Coupled power and transportation network of King County.
+</figcaption>
+</figure>
 
 </div>
 
@@ -108,16 +113,7 @@ WA_coupled_map
 
 ## :smiley: Citing 
 
-If you use PyTrial in a scientific publication, we would appreciate citations to:
-
-```bibtex
-@article{,
-  title={On-Route Fast-Charging Infrastructure Planning for Battery Electric Bus with Coupled Power and Transportation Networks: A Case Study in South King County},
-  author={Xinyi Zhao, Chaoyue Zhao, Grace Jia},
-  journal={},
-  year={2023},
-}
-```
+The citation information will be available shortly.
 
 
 
