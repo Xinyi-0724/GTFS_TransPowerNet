@@ -9,13 +9,14 @@ GTFS_PowerTransNet: A Python Function to Generate a Coupled Power and Transporta
 [![UWISE](https://img.shields.io/badge/About-UW/ISE-blue.svg)](https://ise.washington.edu/)
 [![TOMNET](https://img.shields.io/badge/About-TOMNET/UTC-orange)](https://tomnet-utc.engineering.asu.edu/projects/uw-fast-charging/)
 
-<figure>
-<img src = "images/coupled_overlap.png" width="60%">
-<figcaption align = "center"> 
-Functional interconnection of nodes in the coupled power and transportation network.
-</figcaption>
-</figure>
-
+<div style="text-align:center;">
+    <figure>
+    <img src = "images/coupled_overlap.png" width="60%">
+    <figcaption align = "center"> 
+    Functional interconnection of nodes in the coupled power and transportation network.
+    </figcaption>
+    </figure>
+</div>
 
 
 
