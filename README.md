@@ -9,17 +9,10 @@ GTFS_PowerTransNet: A Python Function to Generate a Coupled Power and Transporta
 [![UWISE](https://img.shields.io/badge/About-UW/ISE-blue.svg)](https://ise.washington.edu/)
 [![TOMNET](https://img.shields.io/badge/About-TOMNET/UTC-orange)](https://tomnet-utc.engineering.asu.edu/projects/uw-fast-charging/)
 
-<figure>
-<img src = "images/coupled_overlap.png" width="60%">
-<figcaption align = "center"; style="color: grey; font-style: italic;">
-Functional interconnection of nodes in the coupled power and transportation network.
-</figcaption>
-</figure>
-
 <p align="center">
  <img src="images/coupled_overlap.png" width="60%">
     <br>
-    <em>Fig. 1 Functional interconnection of nodes in the coupled power and transportation network..</em>
+    <em>Fig. 1 Functional interconnection of nodes in the coupled power and transportation network.</em>
 </p>
 
 
@@ -67,12 +60,12 @@ WA_candidate_stops_df, WA_shape_routes_df, WA_map_1 = BEB_bus_network(WA_gtfs_fi
 
 >The distance between two adjacent bus stations is usually much shorter than the distance between two power grid nodes in reality. Therefore, we need to further refine the selection of power grid nodes from the transportation nodes. For clustered bus stations, we connect them to a single node in the virtual power network.
 
-<figure>
-<img src = "images/powernode_select.png" width="60%">
-<figcaption align = "center"; style="color: grey; font-style: italic;">
-Illustration of node selection rules for constructing the virtual power network.
-</figcaption>
-</figure>
+<p align="center">
+ <img src="images/powernode_select.png" width="60%">
+    <br>
+    <em>Fig. 2 Illustration of node selection rules for constructing the virtual power network.</em>
+</p>
+
 
 - To accomplish this functionality, **GTFS_PowerTransNet** utilizes the **virtual_power_network** function, which requires the following inputs: a dataframe containing the selected transportation nodes and a distance threshold.
 - Upon successful execution, the function will provide the following outputs:
@@ -103,12 +96,12 @@ WA_coupled_map
 
 - It will generate the map displayed below:
 
-<figure>
-<img src = "images/WA_map.png">
-<figcaption align = "center"; style="color: grey; font-style: italic;">
-Coupled power and transportation network of King County.
-</figcaption>
-</figure>
+<p align="center">
+ <img src="images/WA_map.png">
+    <br>
+    <em>Fig. 3 Coupled power and transportation network of King County.</em>
+</p>
+
 
 </div>
 
