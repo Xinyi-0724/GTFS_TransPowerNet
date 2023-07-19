@@ -16,7 +16,11 @@ Functional interconnection of nodes in the coupled power and transportation netw
 </figcaption>
 </figure>
 
-{{< figure "images/coupled_overlap.png" title="Caption" numbered="true" >}}
+<p align="center">
+ <img src="images/coupled_overlap.png" alt="train_perf_fig" height="640" width="960"/>
+    <br>
+    <em>Figure 1 training process of NN.</em>
+</p>
 
 
 ## :star: Features
