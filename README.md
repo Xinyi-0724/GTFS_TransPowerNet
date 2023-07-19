@@ -17,9 +17,9 @@ Functional interconnection of nodes in the coupled power and transportation netw
 </figure>
 
 <p align="center">
- <img src="images/coupled_overlap.png" alt="train_perf_fig" height="640" width="960"/>
+ <img src="images/coupled_overlap.png" width="60%">
     <br>
-    <em>Figure 1 training process of NN.</em>
+    <em>Fig. 1 Functional interconnection of nodes in the coupled power and transportation network..</em>
 </p>
 
 
