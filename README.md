@@ -21,9 +21,9 @@ GTFS_PowerTransNet: A Python Function to Generate a Coupled Power and Transporta
 **GTFS_PowerTransNet** is a specialized tool designed for electric bus planners, offering several key features:
 
 -  :round_pushpin: Abstracting the transportation network from the intricate bus route map based on transit agency's General Transit Feed Specification (GTFS) data.
-  - Identifying potential sites for charging stations by selecting bus stations along the routes;
-  - Capable of handling both one-directional and two-directional bus routes within GTFS files;
-  - Visualizing the transportation map and saving the resulting transportation network as geojson files for future GIS analysis.
+    - Identifying potential sites for charging stations by selecting bus stations along the routes;
+    - Capable of handling both one-directional and two-directional bus routes within GTFS files;
+    - Visualizing the transportation map and saving the resulting transportation network as geojson files for future GIS analysis.
 - :bulb: Constructing a virtual power network that aligns geographically with the chosen bus stations.
   - Further selection of power nodes from the transportation nodes, ensuring an appropriate geographical distance between them; 
   - Utilization of the minimum spanning tree (MST) algorithm to establish branches connecting the chosen power nodes.
