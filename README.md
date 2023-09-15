@@ -112,7 +112,7 @@ WA_coupled_map
 If you use **GTFS_PowerTransNet** in a scientific publication, we would appreciate citations to:
 
 ```bibtex
-@article{zhao2023grid-aware,
+@article{zhao2023gridaware,
   title={Grid-Aware On-Route Fast-Charging Infrastructure Planning for Battery Electric Bus with Equity Considerations: A Case Study in South King County},
   author={Zhao, Xinyi and Zhao, Chaoyue and Jia, Grace},
   journal={arXiv preprint arXiv:2309.07422},
